@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>alchocol o gasolina?</h3>
+    <script>
+        function saltarlinea () {
+            document.write("<br>")
+        }
+
+        function imprimir(frase) {
+
+            document.write(frase)
+            saltarlinea()
+
+        }
+
+        var tanque = 40
+        var caminoRecorrido = 400
+
+        imprimir("Por cada litro el carro recorre " + caminoRecorrido/tanque + " kilometro")
+
+        var a =caminoRecorrido/tanque
+
+        caminoRecorrido = 300 
+
+        imprimir("la eficiencia seria " + caminoRecorrido/tanque + " litros de alcohol por km")
+
+        var b = caminoRecorrido/tanque
+
+        imprimir("el carro con gasilina recorre " + a + " y el carro con alcohol recorre " + b)
+
+    </script>
+</body>
+</html>

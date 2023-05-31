@@ -1,0 +1,87 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: #bbbbbb;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+main {
+    margin: auto;
+    height: 600px;
+}
+main ul{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+main ul li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-width: 2px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+main ul li:hover {
+    border-color: gray;
+    font-size: 30px;
+}
+
+main ul li:active {
+    border-color: blueviolet;
+}
+
+main ul li h2 {
+    font-size:  28px;
+    font-weight: bold;
+}
+
+main ul li:hover h2 {
+    font-size: 30px;
+}
+
+.Productos-descripcion{
+    font-size: 16px;
+}
+
+.Producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background:url(./bg.jpg)  ;
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>IMC</h3>
+
+    <script>
+        function saltarlinea () {
+            document.write("<br>")
+        }
+
+        function imprimir(frase) {
+
+            document.write(frase)
+            saltarlinea()
+
+        }
+
+        function calcularIMC(peso,altura,nombre) {
+
+            imc = peso / (altura * altura)
+            imprimir("el indice calculado de " + nombre + " es " + imc);
+
+        }
+        
+        calcularIMC (80,1.6,Pedro)
+
+
+    </script>
+</body>
+</html>

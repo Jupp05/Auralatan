@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Media de peso</h3>
+
+    <script>
+        function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var contadordePersonas = parseInt(prompt("ingrese cantidad e personas"))
+    var contador= 1
+    var Total = 0
+
+    while (contador <=contadordePersonas) {
+
+        pesos = parseInt(prompt("Peso de esa persona"));
+        Total = Total + pesos;
+        contador++;
+
+    } 
+
+    promedio = Total/contadordePersonas
+    imprimir (promedio)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #bbbbbb;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p  {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0 ;
+}
+.padron {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(231, 9, 9);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+.enviar:hover {
+    background-color:  rgb(0, 255, 13);
+    color: black;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 40px 40px;
+    border-spacing: 0;
+}
+
+thead {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+td,th {
+    border: 1px solid black;
+    padding: 6px 15px;
+}
+footer {
+    text-align: center;
+    background:url(./bg.jpg)  ;
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+
+}
